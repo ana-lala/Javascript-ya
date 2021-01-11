@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Multiplication, addition and subtraction</title>
+            <meta charset="UTF-8">
+        </head>
+        <body>
+            <h2>Exercise 4 :</h2>
+            <h3>4.-A program must be developed that asks for the price of an item and the quantity that the customer carries. Show how much money the customer is missing or over.</h3>
+            <br/>
+        </body>
+        <script>
+            var price = prompt("Enter the price of the item here, please");
+            var pricenumber = parseInt(price);
+            var quantity = prompt("Enter the quantity that you carries");
+            var quantitynumber = parseInt(quantity);
+
+            var money = quantitynumber-pricenumber;
+
+            document.write("The price of the item is: "+pricenumber+"<br/>");
+            document.write("The quantity that you carries is: "+quantitynumber+"<br/>");
+            document.write("The money that is missing or over is: "+money);
+        </script>
+    </html>
